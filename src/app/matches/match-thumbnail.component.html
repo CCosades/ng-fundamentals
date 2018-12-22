@@ -1,0 +1,10 @@
+<div class="well hoverwell thumbnail p-2">
+  <h3>
+    <span>{{match.homePlayer.team}} ({{match.homePlayer.name}}) - {{match.awayPlayer.team}} ({{match.awayPlayer.name}})</span>
+    <span class="pull-right">{{match.result}}</span>
+  </h3>
+  <span>
+    <button class="btn btn-primary" (click)="handleHomeClick()">Home Goal!</button>
+    <button class="btn btn-secondary" (click)="handleAwayClick()">Away Goal!</button>
+  </span>
+</div>
